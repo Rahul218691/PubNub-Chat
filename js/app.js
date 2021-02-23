@@ -97,8 +97,8 @@ $('#userUpload').submit(function(event){
 
   var pubnub = new PubNub({
     // replace the key placeholders with your own PubNub publish and subscribe keys
-    publishKey: 'pub-c-b683fff6-df8f-4b8f-846d-03279eb2c2f1',
-    subscribeKey: 'sub-c-48fb2e12-54bc-11eb-bf6e-f20b4949e6d2',
+    publishKey: 'pubnub publishable key here',
+    subscribeKey: 'pubnub subscribe key here',
     uuid: "theClientUUID"
   });
 
